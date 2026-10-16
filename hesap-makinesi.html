@@ -267,16 +267,20 @@
 
   /* ---------- Bilimsel satır ---------- */
   .sci-row {
-    display: grid;
+    display: none;
     grid-template-columns: repeat(5, 1fr);
     gap: 8px;
     margin-bottom: 12px;
-    max-height: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: max-height .35s ease, opacity .35s ease;
   }
-  .sci-row.open { max-height: 110px; opacity: 1; }
+  .sci-row.open {
+    display: grid;
+    animation: sciOpen .3s cubic-bezier(.2,.9,.3,1.1) both;
+  }
+
+  @keyframes sciOpen {
+    from { opacity: 0; transform: translateY(-8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
 
   .sci-row button {
     height: 44px;
