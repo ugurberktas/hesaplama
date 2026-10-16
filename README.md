@@ -1,6 +1,6 @@
-# 🧮 Hesap Makinesi Pro+
+# 🧮 Hesaplama
 
-Modern, tarayıcıda çalışan, kurulum gerektirmeyen hesap makinesi. Saf HTML/CSS/JavaScript — tek dosya, sıfır bağımlılık.
+Modern, tarayıcıda çalışan, kurulum gerektirmeyen bir hesaplama uygulaması. Saf HTML/CSS/JavaScript — tek dosya, sıfır bağımlılık.
 
 ## ✨ Özellikler
 
@@ -46,14 +46,14 @@ Modern, tarayıcıda çalışan, kurulum gerektirmeyen hesap makinesi. Saf HTML/
 
 ## 🚀 Kullanım
 
-1. `hesap-makinesi.html` dosyasını tarayıcıda aç — hazır!
+1. `hesaplama.html` dosyasını tarayıcıda aç — hazır!
 2. Üstteki **KLASİK / BİLİMSEL** düğmesiyle bilimsel satırı aç/kapa
 3. Sağ alttaki **⌨ Kısayollar** balonu tüm kısayolları gösterir
 
 > 💡 Yerel sunucu ile açmak istersen:
 > ```bash
 > python3 -m http.server 8000
-> # sonra http://localhost:8000/hesap-makinesi.html
+> # sonra http://localhost:8000/hesaplama.html
 > ```
 
 ## 🛡️ Güvenlik
@@ -65,7 +65,7 @@ Hesaplama `Function()` ile yapılır, fakat ifade **yalnızca sayı, operatör v
 ```
 hesaplama/
 ├── README.md            # Bu dosya
-└── hesap-makinesi.html  # Uygulamanın tamamı (HTML + CSS + JS)
+└── hesaplama.html  # Uygulamanın tamamı (HTML + CSS + JS)
 ```
 
 ## 📄 Lisans
